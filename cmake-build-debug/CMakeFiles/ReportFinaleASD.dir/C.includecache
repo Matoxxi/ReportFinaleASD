@@ -9,4 +9,8 @@
 C:/Users/Matteo/CLionProjects/ReportFinaleASD/main.c
 stdio.h
 -
+stdlib.h
+-
+time.h
+-
 
