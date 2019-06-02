@@ -1,0 +1,292 @@
+[1]Per ordinare un insieme di 500 elementi con lo schema Ordinato usando l'algoritmo SelectionSort ho impiegato 0.000000 secondi
+ho eseguito 499 scambi e 124750 confronti
+[2]Per ordinare un insieme di 500 elementi con lo schema Quasi ordinato usando l'algoritmo SelectionSort ho impiegato 0.000000 secondi
+ho eseguito 499 scambi e 124750 confronti
+[3]Per ordinare un insieme di 500 elementi con lo schema Inversamente ordinato usando l'algoritmo SelectionSort ho impiegato 0.000000 secondi
+ho eseguito 499 scambi e 124750 confronti
+[4]Per ordinare un insieme di 500 elementi con lo schema Casuale usando l'algoritmo SelectionSort ho impiegato 0.000000 secondi
+ho eseguito 499 scambi e 124750 confronti
+[5]Per ordinare un insieme di 1000 elementi con lo schema Ordinato usando l'algoritmo SelectionSort ho impiegato 0.000000
+secondi
+ho eseguito 999 scambi e 499500 confronti
+[6]Per ordinare un insieme di 1000 elementi con lo schema Quasi ordinato usando l'algoritmo SelectionSort ho impiegato 0.000000 secondi
+ho eseguito 999 scambi e 499500 confronti
+[7]Per ordinare un insieme di 1000 elementi con lo schema Inversamente ordinato usando l'algoritmo SelectionSort ho impiegato 0.000000 secondi
+ho eseguito 999 scambi e 499500 confronti
+[8]Per ordinare un insieme di 1000 elementi con lo schema Casuale usando l'algoritmo SelectionSort ho impiegato 0.000000 secondi
+ho eseguito 999 scambi e 499500 confronti
+[9]Per ordinare un insieme di 2000 elementi con lo schema Ordinato usando l'algoritmo SelectionSort ho impiegato 0.000000
+secondi
+ho eseguito 1999 scambi e 1999000 confronti
+[10]Per ordinare un insieme di 2000 elementi con lo schema Quasi ordinato usando l'algoritmo SelectionSort ho impiegato 0.000000 secondi
+ho eseguito 1999 scambi e 1999000 confronti
+[11]Per ordinare un insieme di 2000 elementi con lo schema Inversamente ordinato usando l'algoritmo SelectionSort ho impiegato 0.000000 secondi
+ho eseguito 1999 scambi e 1999000 confronti
+[12]Per ordinare un insieme di 2000 elementi con lo schema Casuale usando l'algoritmo SelectionSort ho impiegato 0.015625
+secondi
+ho eseguito 1999 scambi e 1999000 confronti
+[13]Per ordinare un insieme di 5000 elementi con lo schema Ordinato usando l'algoritmo SelectionSort ho impiegato 0.031250 secondi
+ho eseguito 4999 scambi e 12497500 confronti
+[14]Per ordinare un insieme di 5000 elementi con lo schema Quasi ordinato usando l'algoritmo SelectionSort ho impiegato 0.031250 secondi
+ho eseguito 4999 scambi e 12497500 confronti
+[15]Per ordinare un insieme di 5000 elementi con lo schema Inversamente ordinato usando l'algoritmo SelectionSort ho impiegato 0.031250 secondi
+ho eseguito 4999 scambi e 12497500 confronti
+[16]Per ordinare un insieme di 5000 elementi con lo schema Casuale usando l'algoritmo SelectionSort ho impiegato 0.031250
+secondi
+ho eseguito 4999 scambi e 12497500 confronti
+[17]Per ordinare un insieme di 10000 elementi con lo schema Ordinato usando l'algoritmo SelectionSort ho impiegato 0.125000 secondi
+ho eseguito 9999 scambi e 49995000 confronti
+[18]Per ordinare un insieme di 10000 elementi con lo schema Quasi ordinato usando l'algoritmo SelectionSort ho impiegato 0.125000 secondi
+ho eseguito 9999 scambi e 49995000 confronti
+[19]Per ordinare un insieme di 10000 elementi con lo schema Inversamente ordinato usando l'algoritmo SelectionSort ho impiegato 0.109375 secondi
+ho eseguito 9999 scambi e 49995000 confronti
+[20]Per ordinare un insieme di 10000 elementi con lo schema Casuale usando l'algoritmo SelectionSort ho impiegato 0.125000 secondi
+ho eseguito 9999 scambi e 49995000 confronti
+[21]Per ordinare un insieme di 20000 elementi con lo schema Ordinato usando l'algoritmo SelectionSort ho impiegato 0.468750 secondi
+ho eseguito 19999 scambi e 199990000 confronti
+[22]Per ordinare un insieme di 20000 elementi con lo schema Quasi ordinato usando l'algoritmo SelectionSort ho impiegato 0.468750 secondi
+ho eseguito 19999 scambi e 199990000 confronti
+[23]Per ordinare un insieme di 20000 elementi con lo schema Inversamente ordinato usando l'algoritmo SelectionSort ho impiegato 0.484375 secondi
+ho eseguito 19999 scambi e 199990000 confronti
+[24]Per ordinare un insieme di 20000 elementi con lo schema Casuale usando l'algoritmo SelectionSort ho impiegato 0.468750 secondi
+ho eseguito 19999 scambi e 199990000 confronti
+[25]Per ordinare un insieme di 50000 elementi con lo schema Ordinato usando l'algoritmo SelectionSort ho impiegato 2.906250 secondi
+ho eseguito 49999 scambi e 1249975000 confronti
+[26]Per ordinare un insieme di 50000 elementi con lo schema Quasi ordinato usando l'algoritmo SelectionSort ho impiegato 2.890625 secondi
+ho eseguito 49999 scambi e 1249975000 confronti
+[27]Per ordinare un insieme di 50000 elementi con lo schema Inversamente ordinato usando l'algoritmo SelectionSort ho impiegato 3.000000 secondi
+ho eseguito 49999 scambi e 1249975000 confronti
+[28]Per ordinare un insieme di 50000 elementi con lo schema Casuale usando l'algoritmo SelectionSort ho impiegato 2.890625 secondi
+ho eseguito 49999 scambi e 1249975000 confronti
+[29]Per ordinare un insieme di 500 elementi con lo schema Ordinato usando l'algoritmo InsertionSort ho impiegato 0.000000
+secondi
+ho eseguito 500 scambi e 499 confronti
+[30]Per ordinare un insieme di 500 elementi con lo schema Quasi ordinato usando l'algoritmo InsertionSort ho impiegato 0.000000 secondi
+ho eseguito 16657 scambi e 16656 confronti
+[31]Per ordinare un insieme di 500 elementi con lo schema Inversamente ordinato usando l'algoritmo InsertionSort ho impiegato 0.015625 secondi
+ho eseguito 125250 scambi e 124750 confronti
+[32]Per ordinare un insieme di 500 elementi con lo schema Casuale usando l'algoritmo InsertionSort ho impiegato 0.000000 secondi
+ho eseguito 62452 scambi e 62447 confronti
+[33]Per ordinare un insieme di 1000 elementi con lo schema Ordinato usando l'algoritmo InsertionSort ho impiegato 0.000000 secondi
+ho eseguito 1000 scambi e 999 confronti
+[34]Per ordinare un insieme di 1000 elementi con lo schema Quasi ordinato usando l'algoritmo InsertionSort ho impiegato 0.000000 secondi
+ho eseguito 62481 scambi e 62480 confronti
+[35]Per ordinare un insieme di 1000 elementi con lo schema Inversamente ordinato usando l'algoritmo InsertionSort ho impiegato 0.000000 secondi
+ho eseguito 500500 scambi e 499500 confronti
+[36]Per ordinare un insieme di 1000 elementi con lo schema Casuale usando l'algoritmo InsertionSort ho impiegato 0.000000
+secondi
+ho eseguito 250618 scambi e 250606 confronti
+[37]Per ordinare un insieme di 2000 elementi con lo schema Ordinato usando l'algoritmo InsertionSort ho impiegato 0.000000 secondi
+ho eseguito 2000 scambi e 1999 confronti
+[38]Per ordinare un insieme di 2000 elementi con lo schema Quasi ordinato usando l'algoritmo InsertionSort ho impiegato 0.000000 secondi
+ho eseguito 256093 scambi e 256092 confronti
+[39]Per ordinare un insieme di 2000 elementi con lo schema Inversamente ordinato usando l'algoritmo InsertionSort ho impiegato 0.015625 secondi
+ho eseguito 2001000 scambi e 1999000 confronti
+[40]Per ordinare un insieme di 2000 elementi con lo schema Casuale usando l'algoritmo InsertionSort ho impiegato 0.000000
+secondi
+ho eseguito 982642 scambi e 982635 confronti
+[41]Per ordinare un insieme di 5000 elementi con lo schema Ordinato usando l'algoritmo InsertionSort ho impiegato 0.000000 secondi
+ho eseguito 5000 scambi e 4999 confronti
+[42]Per ordinare un insieme di 5000 elementi con lo schema Quasi ordinato usando l'algoritmo InsertionSort ho impiegato 0.000000 secondi
+ho eseguito 1588853 scambi e 1588852 confronti
+[43]Per ordinare un insieme di 5000 elementi con lo schema Inversamente ordinato usando l'algoritmo InsertionSort ho impiegato 0.046875 secondi
+ho eseguito 12502500 scambi e 12497500 confronti
+[44]Per ordinare un insieme di 5000 elementi con lo schema Casuale usando l'algoritmo InsertionSort ho impiegato 0.015625
+secondi
+ho eseguito 6311768 scambi e 6311759 confronti
+[45]Per ordinare un insieme di 10000 elementi con lo schema Ordinato usando l'algoritmo InsertionSort ho impiegato 0.000000 secondi
+ho eseguito 10000 scambi e 9999 confronti
+[46]Per ordinare un insieme di 10000 elementi con lo schema Quasi ordinato usando l'algoritmo InsertionSort ho impiegato 0.015625 secondi
+ho eseguito 6290833 scambi e 6290832 confronti
+[47]Per ordinare un insieme di 10000 elementi con lo schema Inversamente ordinato usando l'algoritmo InsertionSort ho impiegato 0.156250 secondi
+ho eseguito 50005000 scambi e 49995000 confronti
+[48]Per ordinare un insieme di 10000 elementi con lo schema Casuale usando l'algoritmo InsertionSort ho impiegato 0.078125 secondi
+ho eseguito 25141398 scambi e 25141388 confronti
+[49]Per ordinare un insieme di 20000 elementi con lo schema Ordinato usando l'algoritmo InsertionSort ho impiegato 0.000000 secondi
+ho eseguito 20000 scambi e 19999 confronti
+[50]Per ordinare un insieme di 20000 elementi con lo schema Quasi ordinato usando l'algoritmo InsertionSort ho impiegato 0.078125 secondi
+ho eseguito 24880060 scambi e 24880059 confronti
+[51]Per ordinare un insieme di 20000 elementi con lo schema Inversamente ordinato usando l'algoritmo InsertionSort ho impiegato 0.609375 secondi
+ho eseguito 200010000 scambi e 199990000 confronti
+[52]Per ordinare un insieme di 20000 elementi con lo schema Casuale usando l'algoritmo InsertionSort ho impiegato 0.312500 secondi
+ho eseguito 100339751 scambi e 100339745 confronti
+[53]Per ordinare un insieme di 50000 elementi con lo schema Ordinato usando l'algoritmo InsertionSort ho impiegato 0.000000 secondi
+ho eseguito 50000 scambi e 49999 confronti
+[54]Per ordinare un insieme di 50000 elementi con lo schema Quasi ordinato usando l'algoritmo InsertionSort ho impiegato 0.468750 secondi
+ho eseguito 156201015 scambi e 156201014 confronti
+[55]Per ordinare un insieme di 50000 elementi con lo schema Inversamente ordinato usando l'algoritmo InsertionSort ho impiegato 3.812500 secondi
+ho eseguito 1250025000 scambi e 1249975000 confronti
+[56]Per ordinare un insieme di 50000 elementi con lo schema Casuale usando l'algoritmo InsertionSort ho impiegato 1.890625 secondi
+ho eseguito 622943456 scambi e 622943445 confronti
+[57]Per ordinare un insieme di 500 elementi con lo schema Ordinato usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 5103 scambi e 2000 confronti
+[58]Per ordinare un insieme di 500 elementi con lo schema Quasi ordinato usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 4917 scambi e 1927 confronti
+[59]Per ordinare un insieme di 500 elementi con lo schema Inversamente ordinato usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 4425 scambi e 1802 confronti
+[60]Per ordinare un insieme di 500 elementi con lo schema Casuale usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 4765 scambi e 1950 confronti
+[61]Per ordinare un insieme di 1000 elementi con lo schema Ordinato usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 11207 scambi e 4540 confronti
+[62]Per ordinare un insieme di 1000 elementi con lo schema Quasi ordinato usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 10894 scambi e 4341 confronti
+[63]Per ordinare un insieme di 1000 elementi con lo schema Inversamente ordinato usando l'algoritmo HeapSort ho impiegato
+0.000000 secondi
+ho eseguito 9815 scambi e 4123 confronti
+[64]Per ordinare un insieme di 1000 elementi con lo schema Casuale usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 10551 scambi e 4438 confronti
+[65]Per ordinare un insieme di 2000 elementi con lo schema Ordinato usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 24299 scambi e 10230 confronti
+[66]Per ordinare un insieme di 2000 elementi con lo schema Quasi ordinato usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 23777 scambi e 9663 confronti
+[67]Per ordinare un insieme di 2000 elementi con lo schema Inversamente ordinato usando l'algoritmo HeapSort ho impiegato
+0.000000 secondi
+ho eseguito 21707 scambi e 9271 confronti
+[68]Per ordinare un insieme di 2000 elementi con lo schema Casuale usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 23113 scambi e 9833 confronti
+[69]Per ordinare un insieme di 5000 elementi con lo schema Ordinato usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 68431 scambi e 27605 confronti
+[70]Per ordinare un insieme di 5000 elementi con lo schema Quasi ordinato usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 66150 scambi e 27102 confronti
+[71]Per ordinare un insieme di 5000 elementi con lo schema Inversamente ordinato usando l'algoritmo HeapSort ho impiegato
+0.000000 secondi
+ho eseguito 60935 scambi e 26244 confronti
+[72]Per ordinare un insieme di 5000 elementi con lo schema Casuale usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 64663 scambi e 27618 confronti
+[73]Per ordinare un insieme di 10000 elementi con lo schema Ordinato usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 146955 scambi e 60319 confronti
+[74]Per ordinare un insieme di 10000 elementi con lo schema Quasi ordinato usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 142471 scambi e 59168 confronti
+[75]Per ordinare un insieme di 10000 elementi con lo schema Inversamente ordinato usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 131695 scambi e 57846 confronti
+[76]Per ordinare un insieme di 10000 elementi con lo schema Casuale usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 139243 scambi e 60402 confronti
+[77]Per ordinare un insieme di 20000 elementi con lo schema Ordinato usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 312877 scambi e 131511 confronti
+[78]Per ordinare un insieme di 20000 elementi con lo schema Quasi ordinato usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 304599 scambi e 128691 confronti
+[79]Per ordinare un insieme di 20000 elementi con lo schema Inversamente ordinato usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 284333 scambi e 125704 confronti
+[80]Per ordinare un insieme di 20000 elementi con lo schema Casuale usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 298404 scambi e 130918 confronti
+[81]Per ordinare un insieme di 50000 elementi con lo schema Ordinato usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 848303 scambi e 363645 confronti
+[82]Per ordinare un insieme di 50000 elementi con lo schema Quasi ordinato usando l'algoritmo HeapSort ho impiegato 0.015625 secondi
+ho eseguito 828537 scambi e 354762 confronti
+[83]Per ordinare un insieme di 50000 elementi con lo schema Inversamente ordinato usando l'algoritmo HeapSort ho impiegato 0.000000 secondi
+ho eseguito 773891 scambi e 350253 confronti
+[84]Per ordinare un insieme di 50000 elementi con lo schema Casuale usando l'algoritmo HeapSort ho impiegato 0.015625 secondi
+ho eseguito 812497 scambi e 361086 confronti
+[85]Per ordinare un insieme di 500 elementi con lo schema Ordinato usando l'algoritmo QuickSort ho impiegato 0.000000 secondi
+ho eseguito 500 scambi e 125187 confronti
+[86]Per ordinare un insieme di 500 elementi con lo schema Quasi ordinato usando l'algoritmo QuickSort ho impiegato 0.000000 secondi
+ho eseguito 721 scambi e 95562 confronti
+[87]Per ordinare un insieme di 500 elementi con lo schema Inversamente ordinato usando l'algoritmo QuickSort ho impiegato
+0.000000 secondi
+ho eseguito 500 scambi e 125250 confronti
+[88]Per ordinare un insieme di 500 elementi con lo schema Casuale usando l'algoritmo QuickSort ho impiegato 0.000000 secondi
+ho eseguito 1052 scambi e 3712 confronti
+[89]Per ordinare un insieme di 1000 elementi con lo schema Ordinato usando l'algoritmo QuickSort ho impiegato 0.015625 secondi
+ho eseguito 1000 scambi e 500500 confronti
+[90]Per ordinare un insieme di 1000 elementi con lo schema Quasi ordinato usando l'algoritmo QuickSort ho impiegato 0.000000 secondi
+ho eseguito 1566 scambi e 378726 confronti
+[91]Per ordinare un insieme di 1000 elementi con lo schema Inversamente ordinato usando l'algoritmo QuickSort ho impiegato 0.000000 secondi
+ho eseguito 999 scambi e 499501 confronti
+[92]Per ordinare un insieme di 1000 elementi con lo schema Casuale usando l'algoritmo QuickSort ho impiegato 0.000000 secondi
+ho eseguito 2379 scambi e 6848 confronti
+[93]Per ordinare un insieme di 2000 elementi con lo schema Ordinato usando l'algoritmo QuickSort ho impiegato 0.000000 secondi
+ho eseguito 2000 scambi e 2000920 confronti
+[94]Per ordinare un insieme di 2000 elementi con lo schema Quasi ordinato usando l'algoritmo QuickSort ho impiegato 0.000000 secondi
+ho eseguito 3409 scambi e 1506928 confronti
+[95]Per ordinare un insieme di 2000 elementi con lo schema Inversamente ordinato usando l'algoritmo QuickSort ho impiegato 0.000000 secondi
+ho eseguito 2000 scambi e 2001000 confronti
+[96]Per ordinare un insieme di 2000 elementi con lo schema Casuale usando l'algoritmo QuickSort ho impiegato 0.000000 secondi
+ho eseguito 5265 scambi e 19479 confronti
+[97]Per ordinare un insieme di 5000 elementi con lo schema Ordinato usando l'algoritmo QuickSort ho impiegato 0.015625 secondi
+ho eseguito 5000 scambi e 12502500 confronti
+[98]Per ordinare un insieme di 5000 elementi con lo schema Quasi ordinato usando l'algoritmo QuickSort ho impiegato 0.015625 secondi
+ho eseguito 9167 scambi e 9398482 confronti
+[99]Per ordinare un insieme di 5000 elementi con lo schema Inversamente ordinato usando l'algoritmo QuickSort ho impiegato 0.031250 secondi
+ho eseguito 4999 scambi e 12497501 confronti
+[100]Per ordinare un insieme di 5000 elementi con lo schema Casuale usando l'algoritmo QuickSort ho impiegato 0.000000 secondi
+ho eseguito 14802 scambi e 44552 confronti
+[101]Per ordinare un insieme di 10000 elementi con lo schema Ordinato usando l'algoritmo QuickSort ho impiegato 0.125000 secondi
+ho eseguito 10000 scambi e 50005000 confronti
+[102]Per ordinare un insieme di 10000 elementi con lo schema Quasi ordinato usando l'algoritmo QuickSort ho impiegato 0.093750 secondi
+ho eseguito 19581 scambi e 37549752 confronti
+[103]Per ordinare un insieme di 10000 elementi con lo schema Inversamente ordinato usando l'algoritmo QuickSort ho impiegato 0.125000 secondi
+ho eseguito 9999 scambi e 49995001 confronti
+[104]Per ordinare un insieme di 10000 elementi con lo schema Casuale usando l'algoritmo QuickSort ho impiegato 0.000000 secondi
+ho eseguito 31216 scambi e 114945 confronti
+[105]Per ordinare un insieme di 20000 elementi con lo schema Ordinato usando l'algoritmo QuickSort ho impiegato 0.484375 secondi
+ho eseguito 20000 scambi e 200009920 confronti
+[106]Per ordinare un insieme di 20000 elementi con lo schema Quasi ordinato usando l'algoritmo QuickSort ho impiegato 0.359375 secondi
+ho eseguito 41324 scambi e 150120680 confronti
+[107]Per ordinare un insieme di 20000 elementi con lo schema Inversamente ordinato usando l'algoritmo QuickSort ho impiegato 0.484375 secondi
+ho eseguito 20000 scambi e 200010000 confronti
+[108]Per ordinare un insieme di 20000 elementi con lo schema Casuale usando l'algoritmo QuickSort ho impiegato 0.000000 secondi
+ho eseguito 68540 scambi e 210907 confronti
+[109]Per ordinare un insieme di 50000 elementi con lo schema Ordinato usando l'algoritmo QuickSort ho impiegato 3.000000 secondi
+ho eseguito 50000 scambi e 1250024997 confronti
+[110]Per ordinare un insieme di 50000 elementi con lo schema Quasi ordinato usando l'algoritmo QuickSort ho impiegato 2.250000 secondi
+ho eseguito 111414 scambi e 937822230 confronti
+[111]Per ordinare un insieme di 50000 elementi con lo schema Inversamente ordinato usando l'algoritmo QuickSort ho impiegato 2.953125 secondi
+ho eseguito 50000 scambi e 1250025000 confronti
+[112]Per ordinare un insieme di 50000 elementi con lo schema Casuale usando l'algoritmo QuickSort ho impiegato 0.000000 secondi
+ho eseguito 185970 scambi e 597410 confronti
+[113]Per ordinare un insieme di 500 elementi con lo schema Ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 8976 scambi e 2272 confronti
+[114]Per ordinare un insieme di 500 elementi con lo schema Quasi ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 8976 scambi e 2939 confronti
+[115]Per ordinare un insieme di 500 elementi con lo schema Inversamente ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 8976 scambi e 2216 confronti
+[116]Per ordinare un insieme di 500 elementi con lo schema Casuale usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 8976 scambi e 3861 confronti
+[117]Per ordinare un insieme di 1000 elementi con lo schema Ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 19952 scambi e 5044 confronti
+[118]Per ordinare un insieme di 1000 elementi con lo schema Quasi ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 19952 scambi e 6630 confronti
+[119]Per ordinare un insieme di 1000 elementi con lo schema Inversamente ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 19952 scambi e 4932 confronti
+[120]Per ordinare un insieme di 1000 elementi con lo schema Casuale usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 19952 scambi e 8690 confronti
+[121]Per ordinare un insieme di 2000 elementi con lo schema Ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 43904 scambi e 11088 confronti
+[122]Per ordinare un insieme di 2000 elementi con lo schema Quasi ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 43904 scambi e 14769 confronti
+[123]Per ordinare un insieme di 2000 elementi con lo schema Inversamente ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 43904 scambi e 10864 confronti
+[124]Per ordinare un insieme di 2000 elementi con lo schema Casuale usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 43904 scambi e 19397 confronti
+[125]Per ordinare un insieme di 5000 elementi con lo schema Ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 123616 scambi e 32004 confronti
+[126]Per ordinare un insieme di 5000 elementi con lo schema Quasi ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 123616 scambi e 42355 confronti
+[127]Per ordinare un insieme di 5000 elementi con lo schema Inversamente ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 123616 scambi e 29804 confronti
+[128]Per ordinare un insieme di 5000 elementi con lo schema Casuale usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 123616 scambi e 55153 confronti
+[129]Per ordinare un insieme di 10000 elementi con lo schema Ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 267232 scambi e 69008 confronti
+[130]Per ordinare un insieme di 10000 elementi con lo schema Quasi ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 267232 scambi e 92290 confronti
+[131]Per ordinare un insieme di 10000 elementi con lo schema Inversamente ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 267232 scambi e 64608 confronti
+[132]Per ordinare un insieme di 10000 elementi con lo schema Casuale usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 267232 scambi e 120414 confronti
+[133]Per ordinare un insieme di 20000 elementi con lo schema Ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 574464 scambi e 148016 confronti
+[134]Per ordinare un insieme di 20000 elementi con lo schema Quasi ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 574464 scambi e 199499 confronti
+[135]Per ordinare un insieme di 20000 elementi con lo schema Inversamente ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 574464 scambi e 139216 confronti
+[136]Per ordinare un insieme di 20000 elementi con lo schema Casuale usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 574464 scambi e 261028 confronti
+[137]Per ordinare un insieme di 50000 elementi con lo schema Ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 1568928 scambi e 401952 confronti
+[138]Per ordinare un insieme di 50000 elementi con lo schema Quasi ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 1568928 scambi e 547435 confronti
+[139]Per ordinare un insieme di 50000 elementi con lo schema Inversamente ordinato usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 1568928 scambi e 382512 confronti
+[140]Per ordinare un insieme di 50000 elementi con lo schema Casuale usando l'algoritmo MergeSort ho impiegato 0.000000 secondi
+ho eseguito 1568928 scambi e 718079 confronti

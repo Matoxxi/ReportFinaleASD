@@ -1,9 +1,10 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #define MANUALE 0
 #define AUTOMATICA 1
-#define NUM_DIMENSIONI 3
+#define NUM_DIMENSIONI 7
 #define NUM_TIPOLOGIE 4
 #define NUM_ALGORITMI 5
 int cont_confr;
@@ -30,26 +31,22 @@ void mergesort(int *a, int *o, int lower, int upper,Report *r);
 int perno(int vet[],int primo,int ultimo,Report *r);
 void quickSort(int vet[],int u,int v,Report *r);
 void ordinaArray(int *v,int dim,int algoritmo,Report *r);
-void inzializzaReport(Report v[][NUM_DIMENSIONI]);
+void inizializzaReport(Risultati *ris);
 int main() {
     srand(time(NULL));
-    int scelta,dim;
+    int scelta,dim,i;
     cont_confr=cont_scamb=0;
-    int dimensioni[NUM_DIMENSIONI]={4,5,6};
+    int dimensioni[NUM_DIMENSIONI]={500,1000,2000,5000,10000,20000,50000};
     char nomiTipologie[NUM_TIPOLOGIE][30]={"Ordinato","Quasi ordinato","Inversamente ordinato","Casuale"};
     char nomiAlgoritmi[NUM_ALGORITMI][30]={"SelectionSort","InsertionSort","HeapSort","QuickSort","MergeSort"};
     algoritmi algoritmo;
     inputType tipologia;
     //Report r[NUM_TIPOLOGIE][NUM_DIMENSIONI];
-    Risultati ris[NUM_ALGORITMI];
+    //Risultati ris[NUM_ALGORITMI];
     Report rS;
     rS.scambi=rS.confronti=0;
+    int j,k,num=0;
 
-
-    int i,j,k,numero=0;
-    for(i=0;i<NUM_ALGORITMI;i++){
-        inzializzaReport(ris[i].r);
-    }
     int *v;
     do {
         printf("0-Modalita' manuale\n1-Modalita' automatica\n");
@@ -92,30 +89,27 @@ int main() {
             ordinaArray(v,dimensioni[dim],algoritmo,&rS);
             printf("Per ordinare un insieme di %d elementi con lo schema %s usando l'algoritmo %s ho impiegato %lf secondi \n"
                    "ho eseguito %d scambi e %d confronti",dimensioni[dim],nomiTipologie[tipologia],nomiAlgoritmi[algoritmo],rS.t,rS.scambi,rS.confronti);
-             break;
+            break;
         case AUTOMATICA:
+            num=0;
             for(i=0;i<NUM_ALGORITMI;i++){
                 for(j=0;j<NUM_DIMENSIONI;j++){
                     for(k=0;k<NUM_TIPOLOGIE;k++){
+                        rS.confronti=rS.scambi=0;
                         if(i==HeapSort) {
                             v = genera_array(dimensioni[j], k, 1);
-                            ordinaArray(v,dimensioni[j]+1,i,&ris[i].r[j][k]);
-                            numero++;
-                            printf("[%d]Per ordinare un insieme di %d elementi con lo schema %s usando l'algoritmo %s ho impiegato %lf secondi \n"
-                                   "ho eseguito %d scambi e %d confronti\n", numero, dimensioni[j], nomiTipologie[k],
-                                   nomiAlgoritmi[i], ris[i].r[j][k].t, ris[i].r[j][k].scambi, ris[i].r[j][k].confronti);
-                            free(v);
-
                         }
                         else {
                             v = genera_array(dimensioni[j], k, 0);
-                            ordinaArray(v, dimensioni[j], i, &ris[i].r[j][k]);
-                            numero++;
-                            printf("[%d]Per ordinare un insieme di %d elementi con lo schema %s usando l'algoritmo %s ho impiegato %lf secondi \n"
-                                   "ho eseguito %d scambi e %d confronti\n", numero, dimensioni[j], nomiTipologie[k],
-                                   nomiAlgoritmi[i], ris[i].r[j][k].t, ris[i].r[j][k].scambi, ris[i].r[j][k].confronti);
-                            free(v);
                         }
+                        ordinaArray(v, dimensioni[j], i, &rS);
+                        num++;
+                        free(v);
+                        printf("[%d]Per ordinare un insieme di %d elementi con lo schema %s usando l'algoritmo %s ho impiegato %lf secondi \n"
+                                   "ho eseguito %d scambi e %d confronti\n", num, dimensioni[j], nomiTipologie[k],
+                                   nomiAlgoritmi[i], rS.t, rS.scambi, rS.confronti);
+
+
                     }
                 }
             }
@@ -155,7 +149,7 @@ void ordinaArray(int *v,int dim,int algoritmo,Report *r){
         case QuickSort:
 
             start=clock();
-            quickSort(v,0,dim-1,r);
+            quickSort(v,0,dim,r);
             end=clock();
             r->t=((double) (end-start))/CLOCKS_PER_SEC;
             break;
@@ -185,6 +179,7 @@ int *genera_array(int dim,inputType tipo_schema,int flag){
             switch(tipo_schema){
                 case ORDINATO:
 
+
                     for(i=0;i<dim;i++){
                         v[i]=i+1;
                     }
@@ -212,7 +207,7 @@ int *genera_array(int dim,inputType tipo_schema,int flag){
             }
             break;
         case 1:
-            v = (int *) malloc(sizeof(int) * dim+1);
+            v = (int *) malloc(sizeof(int) * (dim+1));
             if(v==NULL)
                 exit(-1);
             switch(tipo_schema){
@@ -236,11 +231,11 @@ int *genera_array(int dim,inputType tipo_schema,int flag){
                     break;
                 case QUASI_ORDINATO:
                     v[0]=0;
-                    for(i=1;i<dim+1/2;i++){
+                    for(i=1;i<(dim+1)/2;i++){
                         v[i]=i+1;
                     }
                     for(j=i;j<dim+1;j++){
-                        v[j]=generaCasuale((dim+1/2)+1,dim);
+                        v[j]=generaCasuale(((dim+1)/2)+1,dim);
                     }
                     break;
                 default:
@@ -294,8 +289,9 @@ void insertionSort(int v[],int dim,Report *r){
     for(i=0;i<=dim-1;i++){
         prossimo=v[i];
         for(j=i-1;j>=0;j--){
+            r->confronti++;
             if(prossimo<v[j]) {
-                r->confronti++;
+                r->scambi++;
                 v[j + 1] = v[j];
             }
             else
@@ -350,6 +346,7 @@ void mergesort(int *a, int *o, int lower, int upper,Report *r) {
     merge(a, o, lower, medium, upper,r);
 }
 
+
 void merge(int *a, int *o, int i, int m, int n,Report *r) {
     int j, k, pos_iniziale, t;
     j = m + 1;
@@ -384,6 +381,7 @@ void merge(int *a, int *o, int i, int m, int n,Report *r) {
     }
 
     for (t = pos_iniziale; t <= n; t++) {
+        r->scambi++;
         a[t] = o[t];
     }
 }
@@ -406,10 +404,12 @@ int perno(int vet[],int primo,int ultimo,Report *r){
             i++;
             r->confronti++;
         }while (vet[i]<=pivot && i<=ultimo);
+        r->confronti--;
         do{
             j--;
             r->confronti++;
         }while (vet[j]>pivot && j>=primo);
+        r->confronti--;
         if(i<j){
             swap(&vet[i],&vet[j]);
             r->scambi++;
@@ -422,12 +422,15 @@ int perno(int vet[],int primo,int ultimo,Report *r){
 }
 
 
-void inzializzaReport(Report v[][NUM_DIMENSIONI]){
-    int i,j;
-    for(i=0;i<NUM_TIPOLOGIE;i++){
-        for(j=0;j<NUM_DIMENSIONI;j++){
-            v[i][j].confronti=0;
-            v[i][j].scambi=0;
-        }
+void inizializzaReport(Risultati *ris){
+    int i,j,k;
+    for(i=0;i<NUM_ALGORITMI;i++){
+       for(j=0;j<NUM_TIPOLOGIE;j++){
+           for(k=0;k<NUM_DIMENSIONI;k++){
+               ris[i].r[j][k].confronti=0;
+               ris[i].r[j][k].scambi=0;
+               ris[i].r[j][k].t=0;
+           }
+       }
     }
 }

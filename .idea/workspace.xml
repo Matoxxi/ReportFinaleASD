@@ -14,12 +14,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b5646f53-c4ec-4fce-bc05-a22355edb569" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ReportFinaleASD.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ReportFinaleASD.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ReportFinaleASD.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ReportFinaleASD.dir/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ReportFinaleASD.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ReportFinaleASD.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ReportFinaleASD.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ReportFinaleASD.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ReportFinaleASD.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ReportFinaleASD.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ReportFinaleASD.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ReportFinaleASD.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ReportFinaleASD.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ReportFinaleASD.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -34,7 +35,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor" />
@@ -43,27 +44,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1480">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#2761#5025#0" />
-                <element signature="e#4465#4569#0" />
-                <element signature="e#5206#5304#0" />
-                <element signature="e#5306#5681#0" />
-                <element signature="e#5892#6171#0" />
-                <element signature="e#6286#6464#0" />
-                <element signature="e#6466#6796#0" />
-                <element signature="e#6980#7233#0" />
-                <element signature="e#7235#7838#0" />
-                <element signature="e#8036#8198#0" />
-                <element signature="e#8200#8591#0" />
-              </folding>
+            <state relative-caret-position="231">
+              <caret line="117" column="18" lean-forward="true" selection-end-line="435" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>r-&gt;alg</find>
+      <find>/</find>
+      <find>heap</find>
+      <find>quicksort</find>
+      <find>merge</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -80,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="width" value="980" />
     <option name="height" value="1050" />
@@ -89,10 +85,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -132,6 +125,10 @@
       <option name="presentableId" value="Default" />
       <updated>1559321357980</updated>
       <workItem from="1559321359789" duration="4140000" />
+      <workItem from="1559374923018" duration="9265000" />
+      <workItem from="1559394048333" duration="1891000" />
+      <workItem from="1559462041764" duration="5415000" />
+      <workItem from="1559471610732" duration="1751000" />
     </task>
     <task id="LOCAL-00001" summary="Struttura base per la scelta della modalita'">
       <created>1559322914070</created>
@@ -154,35 +151,52 @@
       <option name="project" value="LOCAL" />
       <updated>1559325495767</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fine modalita' manuale, test modalita' automatica da sistemare">
+      <created>1559382588930</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559382588930</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4140000" />
+    <option name="totallyTimeSpent" value="22462000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="CMake" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32935917" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.6751118" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.8599106" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.32935917" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.39940387" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.41579732" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.3546945" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32935917" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,15 +207,16 @@
     <MESSAGE value="Struttura base per la scelta della modalita'" />
     <MESSAGE value="Generazione array, con caso heap" />
     <MESSAGE value="Modalita' manuale praticamente completata" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modalita' manuale praticamente completata" />
+    <MESSAGE value="Fine modalita' manuale, test modalita' automatica da sistemare" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fine modalita' manuale, test modalita' automatica da sistemare" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.c</url>
-          <line>24</line>
-          <option name="timeStamp" value="2" />
+          <line>34</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -212,22 +227,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1480">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#2761#5025#0" />
-            <element signature="e#4465#4569#0" />
-            <element signature="e#5206#5304#0" />
-            <element signature="e#5306#5681#0" />
-            <element signature="e#5892#6171#0" />
-            <element signature="e#6286#6464#0" />
-            <element signature="e#6466#6796#0" />
-            <element signature="e#6980#7233#0" />
-            <element signature="e#7235#7838#0" />
-            <element signature="e#8036#8198#0" />
-            <element signature="e#8200#8591#0" />
-          </folding>
+        <state relative-caret-position="231">
+          <caret line="117" column="18" lean-forward="true" selection-end-line="435" selection-end-column="1" />
         </state>
       </provider>
     </entry>
