@@ -93,7 +93,9 @@ int main() {
         case AUTOMATICA:
             num=0;
             for(i=0;i<NUM_ALGORITMI;i++){
+                printf("%s\n",nomiAlgoritmi[i]);
                 for(j=0;j<NUM_DIMENSIONI;j++){
+                    printf("%d elementi \n",dimensioni[j]);
                     for(k=0;k<NUM_TIPOLOGIE;k++){
                         rS.confronti=rS.scambi=0;
                         if(i==HeapSort) {
@@ -105,9 +107,8 @@ int main() {
                         ordinaArray(v, dimensioni[j], i, &rS);
                         num++;
                         free(v);
-                        printf("[%d]Per ordinare un insieme di %d elementi con lo schema %s usando l'algoritmo %s ho impiegato %lf secondi \n"
-                                   "ho eseguito %d scambi e %d confronti\n", num, dimensioni[j], nomiTipologie[k],
-                                   nomiAlgoritmi[i], rS.t, rS.scambi, rS.confronti);
+                        printf("Insieme %s \ntempo: %lf s |"
+                                   " %d scambi | %d confronti\n",nomiTipologie[k], rS.t, rS.scambi, rS.confronti);
 
 
                     }
