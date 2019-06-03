@@ -12,7 +12,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5646f53-c4ec-4fce-bc05-a22355edb569" name="Default Changelist" comment="" />
+    <list default="true" id="b5646f53-c4ec-4fce-bc05-a22355edb569" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ReportFinaleASD.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ReportFinaleASD.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ReportFinaleASD.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/ReportFinaleASD.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/ReportFinaleASD.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/ReportFinaleASD.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="117" column="18" lean-forward="true" selection-end-line="435" selection-end-column="1" />
+            <state relative-caret-position="531">
+              <caret line="116" column="43" selection-start-line="116" selection-start-column="43" selection-end-line="116" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -120,6 +126,7 @@
       <workItem from="1559394048333" duration="1891000" />
       <workItem from="1559462041764" duration="5415000" />
       <workItem from="1559471610732" duration="1751000" />
+      <workItem from="1559569888803" duration="726000" />
     </task>
     <task id="LOCAL-00001" summary="Struttura base per la scelta della modalita'">
       <created>1559322914070</created>
@@ -149,11 +156,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559382588930</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Pulizia grafica">
+      <created>1559570357870</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559570357870</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22462000" />
+    <option name="totallyTimeSpent" value="23188000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -166,6 +180,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -198,7 +213,8 @@
     <MESSAGE value="Generazione array, con caso heap" />
     <MESSAGE value="Modalita' manuale praticamente completata" />
     <MESSAGE value="Fine modalita' manuale, test modalita' automatica da sistemare" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fine modalita' manuale, test modalita' automatica da sistemare" />
+    <MESSAGE value="Pulizia grafica" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pulizia grafica" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -217,8 +233,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="117" column="18" lean-forward="true" selection-end-line="435" selection-end-column="1" />
+        <state relative-caret-position="531">
+          <caret line="116" column="43" selection-start-line="116" selection-start-column="43" selection-end-line="116" selection-end-column="43" />
         </state>
       </provider>
     </entry>

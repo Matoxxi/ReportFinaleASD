@@ -112,7 +112,9 @@ int main() {
 
 
                     }
+                    printf("\nFINE TEST CON %d ELEMENTI\n",dimensioni[j]);
                 }
+                printf("\nFINE TEST %s \n",nomiAlgoritmi[i]);
             }
             break;
         default:
